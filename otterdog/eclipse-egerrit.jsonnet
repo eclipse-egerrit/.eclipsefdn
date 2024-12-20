@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-egerrit') {
+orgs.newOrg('technology.egerrit', 'eclipse-egerrit') {
   settings+: {
     description: "",
     name: "Eclipse Egerrit",
